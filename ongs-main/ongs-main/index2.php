@@ -37,21 +37,33 @@
         <li><a href="faleconosco.php">Fale Conosco</a></li>
     </ul>
 </div>
-<div class="container">
+<div class="container-fluid">
     <div style="min-height: 55vh">
-        <div class="row center  valign-wrapper">
+            <div class="row center  valign-wrapper">
             <?php
-            for ($i = 1; $i <=12; $i++){
-                echo '
-            
-            <div class="col s1 center">
-                <img src="icones/'.$i.'.svg" class="center circle responsive-img" width="100" height="100">
+
+    for ($i = 1; $i <=12; $i++){
+        if ($i % 6 == 0){
+        echo '
+        <div class="col s3 center">
+            <img src="icones/'.$i.'.png" class="center circle white responsive-img" width="200" height="300">
+        </div>
+        </div>
+        <div class="row center  valign-wrapper">
+            ';
+        }
+        else{
+            echo '
+            <div class="col s3 center">
+                <img src="icones/'.$i.'.png" class="center circle white responsive-img" width="200" height="00">
             </div>
             ';
+        }
+
                 }?>
-        </div>
     </div>
 </div>
+
 <div class="container">
     <div class="row">
     <div class="col s4 offset-s4 center">

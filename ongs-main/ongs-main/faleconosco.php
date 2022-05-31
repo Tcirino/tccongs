@@ -10,18 +10,18 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
     <div class="row">
         <nav>
             <div class="nav-wrapper blue ">
-                <a href="#!" class="brand-logo"><img src="infointerface.png" class="responsive-img" width="70"></a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <a href="index2.php" class="brand-logo"><img src="infointerface.png" class="responsive-img" width="70"></a>
+                <a href="index2.php" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="cadongs.php">Cadastro de Ongs</a></li>
                     <li><a href="ongscadastradas.php">Ongs Cadastradas</a></li>
@@ -56,29 +56,32 @@
             <div class="row">
                 <div class="col s12 m4">
                     <label for="nomecompleto" class="white-text">Nome Completo:</label>
-                    <input type="textarea" name="nomecompleto" id="nomecompleto"  />
+                    <input type="text" name="nomecompleto" id="nomecompleto" style= "border-bottom: 1px solid #ffffff" />
                 </div>
 
                 <div class="col s12 m4">
                     <label for="e-mail" class="white-text">E - mail:</label>
-                    <input type="textarea" name="e-mai" id="e-mai"  />
+                    <input type="text" name="e-mai" id="e-mai" style= "border-bottom: 1px solid #ffffff" />
                 </div>
           
                 <div class="col s12 m4">
                     <label for="telefone" class="white-text">Telefone:</label>
-                    <input type="textarea" name="telefone" id="telefone"  />
+                    <input type="text" name="telefone" id="telefone" style= "border-bottom: 1px solid #ffffff" />
                 </div>
            </div>
             
             <div class="row">
                  <div class="col s12 ">
-                    <label for="enviesuamensagem" class="white-text">Envie sua Mensagem:</label>
-                    <textarea id="swal-input2" class="swal2-input" rows="100"></textarea>
+                    <label for="enviesuamensagem" class="white-text">Digite sua Mensagem: </label>
+                    <textarea id="fundobranco form-control" rows="100" style="background-color:white;"></textarea>
                   </div>
                </div>
            </div>
        </form>
    </div>
+
+   <p class="center"><a class="waves-effect waves-light btn" href="faleconosco.php">Enviar</a></p>
+
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script type="text/javascript">
     M.AutoInit();

@@ -20,8 +20,8 @@
     <div class="row">
         <nav>
             <div class="nav-wrapper blue ">
-                <a href="#!" class="brand-logo"><img src="infointerface.png" class="responsive-img" width="70"></a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <a href="index2.php" class="brand-logo"><img src="infointerface.png" class="responsive-img" width="70"></a>
+                <a href="index2.php" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="cadongs.php">Cadastro de Ongs</a></li>
                     <li><a href="ongscadastradas.php">Ongs Cadastradas</a></li>
@@ -55,47 +55,47 @@
                 <div class="row">
                     <div class="col s12 m4">
                         <label for="nomedoanimal" class="white-text">Nome do Animal</label>
-                        <input type="text" name="nomedoanimal" id="nomedoanimal" class="white-text" />
+                        <input type="text" name="nomedoanimal" id="nomedoanimal" class="white-text" style= "border-bottom: 1px solid #ffffff"/>
                     </div>
 
                     <div class="col s12 m4">
                         <label for="imagemdoanimal" class="white-text">Imagem do Animal</label>
-                        <input type="file" name="imagemdoanimal" id="imagemdoanimal" class="white-text" />
+                        <input type="file" name="imagemdoanimal" id="imagemdoanimal" class="white-text"  />
                     </div>
 
                     <div class="col s12 m4">
                         <label for="especiedoanimal" class="white-text">Especie do Animal</label>
-                        <input type="text" name="especiedoanimal" id="especiedoanimal" class="white-text" />
+                        <input type="text" name="especiedoanimal" id="especiedoanimal" class="white-text" style= "border-bottom: 1px solid #ffffff" />
                     </div>
 
                     <div class="col s12 m4">
                         <label for="racadoanimal" class="white-text">Raça do Animal</label>
-                        <input type="text" name="racadoanimal" id="racadoanimal" class="white-text" />
+                        <input type="text" name="racadoanimal" id="racadoanimal" class="white-text" style= "border-bottom: 1px solid #ffffff" />
                     </div>
 
                     <div class="col s12 m4">
                         <label for="idadedoanimal" class="white-text">Idade do Animal</label>
-                        <input type="text" name="idadedoanimal" id="idadedoanimal" class="white-text" />
+                        <input type="text" name="idadedoanimal" id="idadedoanimal" class="white-text"style= "border-bottom: 1px solid #ffffff" />
                     </div>
 
                     <div class="col s12 m4">
                         <label for="pesooanimal" class="white-text">Peso do Animal</label>
-                        <input type="text" name="pesodoanimal" id="pesodoanimal" class="white-text" />
+                        <input type="text" name="pesodoanimal" id="pesodoanimal" class="white-text"style= "border-bottom: 1px solid #ffffff" />
                     </div>
 
                     <div class="col s12 m4">
                         <label for="alturaoanimal" class="white-text">Altura do Animal</label>
-                        <input type="text" name="alturadoanimal" id="alturadoanimal" class="white-text" />
+                        <input type="text" name="alturadoanimal" id="alturadoanimal" class="white-text" style= "border-bottom: 1px solid #ffffff"/>
                     </div>
 
                     <div class="col s12 m4">
                         <label for="sexodoanimal" class="white-text">Sexo do Animal</label>
-                        <input type="text" name="sexodoanimal" id="sexodoanimal" class="white-text" />
+                        <input type="text" name="sexodoanimal" id="sexodoanimal" class="white-text" style= "border-bottom: 1px solid #ffffff"/>
                     </div>
 
                     <div class="col s12 m4">
                         <label for="escrevaanimal" class="white-text">Escreva sobre a história do Animal</label>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <textarea name="" id="" cols="30" rows="10" style= "border-bottom: 1px solid #ffffff" ></textarea>
                     </div>
                 </div>
 

@@ -19,8 +19,8 @@
 <div class="row">
     <nav>
         <div class="nav-wrapper blue ">
-            <a href="#!" class="brand-logo"><img src="infointerface.png" class="responsive-img" width="70"></a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="index2.php" class="brand-logo"><img src="infointerface.png" class="responsive-img" width="70"></a>
+            <a href="index2.php" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="cadongs.php">Cadastro de Ongs</a></li>
                 <li><a href="ongscadastradas.php">Ongs Cadastradas</a></li>

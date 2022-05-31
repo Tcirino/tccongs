@@ -20,8 +20,8 @@
     <div class="row">
         <nav>
             <div class="nav-wrapper blue ">
-                <a href="#!" class="brand-logo"><img src="infointerface.png" class="responsive-img" width="70"></a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <a href="index2.php" class="brand-logo"><img src="infointerface.png" class="responsive-img" width="70"></a>
+                <a href="index2.php" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="cadongs.php">Cadastro de Ongs</a></li>
                     <li><a href="ongscadastradas.php">Ongs Cadastradas</a></li>
@@ -55,13 +55,13 @@
 
             <div class="row">
                 <div class="col s12 m4">
-                    <label for="emailOng" class="white-text">E-mail</label>
-                    <input type="email" name="usuario" id="usuario" class="white-text" />
+                    <label for="emailong" class="white-text">E-mail</label>
+                    <input type="email" name="usuario" id="usuario" class="white-text" style= "border-bottom: 1px solid #ffffff" />
                 </div>
 
                 <div class="col s12 m4">
                     <label for="senhaOng" class="white-text">Senha</label>
-                    <input type="password" name="senhaOng" id="senhaOng" class="white-text" />
+                    <input type="password" name="senhaOng" id="senhaOng" class="white-text" style= "border-bottom: 1px solid #ffffff" />
                 </div>
             </div>
 
@@ -74,12 +74,12 @@
                     <div class="row">
                         <div class="col s12 m4">
                             <label for="nomeOng" class="white-text">Nome da ONG</label>
-                            <input type="text" name="nomeOng" id="nomeOng" />
+                            <input type="text" name="nomeOng" id="nomeOng" style= "border-bottom: 1px solid #ffffff" />
                         </div>
 
                         <div class="col s12 m4">
                             <label for="tipodeong" class="white-text">Tipo de Ong</label>
-                            <select name="tipodeong" id="tipodeong">
+                            <select name="tipodeong" id="tipodeong" >
                                 <option value=""></option>
                                 <option>Animais</option>
                                 <option>Social</option>
@@ -100,7 +100,7 @@
                         <div class="col s12 m4">
                             <label class="white-text">Logo da Ong</label>
                             <label class="fakeinput">
-                                <input type="file"></label>
+                            <input type="file"></label>
                         </div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@
             <div class="row">
                 <div class="col s12 m4">
                     <label for="descrevasuaong" class="white-text">Descreva sua Ong/Do que ela precisa?</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <textarea name="" id="" cols="30" rows="10" style="background-color:white;"></textarea>
                 </div>
             
         </form>
@@ -160,31 +160,31 @@
             <div class="row">
                 <div class="col s12 m4">
                     <label for="cep" class="white-text">Cep</label>
-                    <input type="text" name="cep" id="cep" />
+                    <input type="text" name="cep" id="cep" style= "border-bottom: 1px solid #ffffff" />
                 </div>
 
                 <div class="row">
                     <div class="col s12 m4">
                         <label for="telefone"class="white-text">Telefone</label>
-                        <input type="text" name="telefone" id="telefone" />
+                        <input type="text" name="telefone" id="telefone" style= "border-bottom: 1px solid #ffffff"/>
                     </div>
 
                     <div class="row">
                         <div class="col s12 m4">
                             <label for="logradouro" class="white-text">Logradouro (ex:rua,avenida)</label>
-                            <input type="text" name="logradouro" id="logradouro" />
+                            <input type="text" name="logradouro" id="logradouro" style= "border-bottom: 1px solid #ffffff" />
                         </div>
 
                         <div class="row">
                             <div class="col s12 m4">
                                 <label for="numero" class="white-text">N°</label>
-                                <input type="text" name="numero" id="numero" />
+                                <input type="text" name="numero" id="numero" style= "border-bottom: 1px solid #ffffff"/>
                             </div>
 
                             <div class="row">
                                 <div class="col s12 m4">
                                     <label for="complemento" class="white-text">Complemento</label>
-                                    <input type="text" name="complemento" id="complemento" />
+                                    <input type="text" name="complemento" id="complemento" style= "border-bottom: 1px solid #ffffff" />
                                 </div>
                             </div>
 
@@ -207,7 +207,7 @@
         <div class="row">
             <div class="col s12 m4">
                 <label for="numero" class="white-text">Pix Para Doações</label>
-                <input type="text" name="pix" id="pix" />
+                <input type="text" name="pix" id="pix" style= "border-bottom: 1px solid #ffffff" />
             </div>
 
             <div class="col s12 m4">
@@ -226,7 +226,7 @@
             <div class="row">
                 <div class="col s12 m4">
                     <label for="numeroconta" class="white-text">Numero da Conta Para Doações</label>
-                    <input type="text" name="numeroconta" id="numeroconta" />
+                    <input type="text" name="numeroconta" id="numeroconta"style= "border-bottom: 1px solid #ffffff"/>
                 </div>
             </div>
        
